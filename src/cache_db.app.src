@@ -1,0 +1,19 @@
+%%%-------------------------------------------------------------------
+%%% @author tringapps
+%%% @copyright (C) 2017, <COMPANY>
+%%% @doc
+%%%
+%%% @end
+%%% Created : 10. Jan 2017 11:32 AM
+%%%-------------------------------------------------------------------
+{application, cache_db, [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib
+  ]},
+  {mod, {cache_db, []}},
+  {env, []}
+]}.
